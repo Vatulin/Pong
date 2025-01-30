@@ -51,7 +51,7 @@ int main()
         Score score(&window, scoreString, font);
 
         //Отскок мяча и начисление очков первому игроку
-        if (ball.getX() >= 750.f && ball.getY() <= paddle2.getY() + 45 && ball.getY() >= paddle2.getY() - 45 &&
+        if (ball.getX() >= 750.f && ball.getY() <= paddle2.getY() + 55 && ball.getY() >= paddle2.getY() - 55 &&
             type == "Right") {
             type = "Left";
             ball.addAcceleration();
